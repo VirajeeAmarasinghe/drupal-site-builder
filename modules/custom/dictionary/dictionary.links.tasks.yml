@@ -1,0 +1,23 @@
+# Define the "local" links for the module
+
+dictionary.settings_tab:
+  route_name: dictionary.term_settings  
+  base_route: dictionary.term_settings
+  title: Settings
+
+dictionary.view:
+  route_name: entity.dictionary_term.canonical
+  base_route: entity.dictionary_term.canonical
+  title: View
+
+dictionary.page_edit:
+  route_name: entity.dictionary_term.edit_form
+  base_route: entity.dictionary_term.canonical
+  title: Edit
+
+dictionary.delete_confirm:
+  route_name: entity.dictionary_term.delete_form
+  base_route: entity.dictionary_term.canonical
+  title: Delete
+  weight: 10
+

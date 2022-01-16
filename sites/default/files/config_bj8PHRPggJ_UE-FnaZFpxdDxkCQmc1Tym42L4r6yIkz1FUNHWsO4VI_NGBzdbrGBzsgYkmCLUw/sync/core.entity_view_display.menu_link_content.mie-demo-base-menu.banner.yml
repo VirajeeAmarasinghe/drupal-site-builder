@@ -1,0 +1,44 @@
+uuid: 8a23dbc3-4f3a-4645-8a28-9ab77e9db9b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.menu_link_content.banner
+    - field.field.menu_link_content.mie-demo-base-menu.field_body
+    - field.field.menu_link_content.mie-demo-base-menu.field_image
+    - field.field.menu_link_content.mie-demo-base-menu.field_mie_demo_content_terms
+    - system.menu.mie-demo-base-menu
+  module:
+    - image
+    - text
+_core:
+  default_config_hash: 7AmiX_nyhWBxZ_XX9FO6M4DFZ8z4dBJ9DJsaDDpCfEc
+id: menu_link_content.mie-demo-base-menu.banner
+targetEntityType: menu_link_content
+bundle: mie-demo-base-menu
+mode: banner
+content:
+  children:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_mie_demo_content_terms: true
+  langcode: true

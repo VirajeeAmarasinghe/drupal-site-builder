@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: fdbce5af-b2df-4d16-887f-2d61a2a65e24
+name: 'Anytown Farmers Market'
+mail: virajee.hiranthika@gmail.com
+slogan: 'Farm Fresh Food'
+page:
+  403: ''
+  404: ''
+  front: /node/10
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

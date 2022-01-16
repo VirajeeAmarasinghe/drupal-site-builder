@@ -1,0 +1,20 @@
+uuid: e311ba1c-86a1-46b1-9b28-255bf52cb0c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.vendor
+  module:
+    - path
+id: node.vendor.path
+field_name: path
+entity_type: node
+bundle: vendor
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

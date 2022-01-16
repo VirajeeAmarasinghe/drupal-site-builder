@@ -1,0 +1,12 @@
+uuid: 4f623914-e2dc-4acc-a584-9157937b6e59
+langcode: en
+status: true
+dependencies: {  }
+id: block1
+label: block1
+code: '.block1{background-color:red;}'
+media: all
+preprocess: true
+conditions: {  }
+contexts: {  }
+conditions_require_all: true

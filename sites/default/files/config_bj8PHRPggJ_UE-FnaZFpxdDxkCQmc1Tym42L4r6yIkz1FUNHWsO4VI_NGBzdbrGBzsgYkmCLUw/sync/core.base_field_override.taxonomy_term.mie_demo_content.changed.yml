@@ -1,0 +1,18 @@
+uuid: 291127eb-2afd-4812-8e4d-8cba466ffcb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.mie_demo_content
+id: taxonomy_term.mie_demo_content.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: mie_demo_content
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

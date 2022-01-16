@@ -1,0 +1,12 @@
+<?php
+/**
+ * Implementation of hook_form_alter
+ * $form is the nested array of form elements that comprise the form
+ * $form_state is the current state of the form 
+ * $form_id is a string representing the name of the form itself
+ */
+function mymodule_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id){
+    if($form_id == 'comment_comment_form'){
+        $form['actions']['submit']['#value'] = t('Comment');
+    }
+}

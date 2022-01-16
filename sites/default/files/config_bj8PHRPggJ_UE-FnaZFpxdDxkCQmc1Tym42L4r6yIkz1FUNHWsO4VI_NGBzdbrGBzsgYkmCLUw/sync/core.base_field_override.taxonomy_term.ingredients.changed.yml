@@ -1,0 +1,18 @@
+uuid: f0e6ed9a-df38-4c36-b69b-86cf8406403b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ingredients
+id: taxonomy_term.ingredients.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: ingredients
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

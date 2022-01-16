@@ -1,0 +1,18 @@
+uuid: 9d7d289d-bfc6-4612-9f83-07bca8079c53
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.mie-demo-base-menu
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: menu_link_content.mie-demo-base-menu
+target_entity_type_id: menu_link_content
+target_bundle: mie-demo-base-menu
+default_langcode: site_default
+language_alterable: true

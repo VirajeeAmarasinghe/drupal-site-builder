@@ -1,0 +1,20 @@
+uuid: af8defa8-ffd4-4c3d-b097-b6c04f6f82a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.mie_demo_content
+  module:
+    - path
+id: taxonomy_term.mie_demo_content.path
+field_name: path
+entity_type: taxonomy_term
+bundle: mie_demo_content
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

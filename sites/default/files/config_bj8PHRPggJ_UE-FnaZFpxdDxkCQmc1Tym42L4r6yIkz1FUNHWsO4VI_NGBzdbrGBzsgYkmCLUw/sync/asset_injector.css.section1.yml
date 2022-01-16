@@ -1,0 +1,12 @@
+uuid: 78612d6e-710b-4fa5-bae0-31d808c8518e
+langcode: en
+status: true
+dependencies: {  }
+id: section1
+label: section1
+code: '.section1{padding:20px;}'
+media: all
+preprocess: true
+conditions: {  }
+contexts: {  }
+conditions_require_all: true

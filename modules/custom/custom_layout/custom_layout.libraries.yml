@@ -1,0 +1,4 @@
+oneplusfourgrid_section:
+  css:
+    theme:
+      layouts/oneplusfourgrid_section/oneplusfourgrid_section.css: {}
