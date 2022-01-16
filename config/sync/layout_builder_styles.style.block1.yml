@@ -1,0 +1,11 @@
+uuid: 69baf557-d4c3-402c-a0f6-97035abf689a
+langcode: en
+status: true
+dependencies: {  }
+id: block1
+label: block1
+classes: block1
+type: component
+block_restrictions: {  }
+layout_restrictions: {  }
+weight: 0

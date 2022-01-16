@@ -1,0 +1,9 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Applicar
+      filters:
+        field_ingredients_target_id:
+          admin_label: 'Encontrar recetas usando…'

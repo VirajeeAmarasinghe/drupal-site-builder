@@ -1,0 +1,25 @@
+uuid: 1eb1eb49-a745-4ebe-af49-6162a1408438
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e5455346-1102-49ed-bf2f-f4fb1a7a6b3d'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: welocomemessage
+theme: bartik
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'block_content:e5455346-1102-49ed-bf2f-f4fb1a7a6b3d'
+settings:
+  id: 'block_content:e5455346-1102-49ed-bf2f-f4fb1a7a6b3d'
+  label: 'Welocome Message'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: 836c25f2-187d-4803-9421-a2709d4a3ead
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ingredients
+id: taxonomy_term.ingredients.name
+field_name: name
+entity_type: taxonomy_term
+bundle: ingredients
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

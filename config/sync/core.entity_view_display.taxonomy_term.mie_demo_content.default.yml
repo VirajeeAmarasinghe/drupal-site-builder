@@ -1,0 +1,29 @@
+uuid: 624247ba-ac5f-4da6-a334-46fb47a498f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.mie_demo_content.field_mie_image
+    - image.style.mie_demo_teaser
+    - taxonomy.vocabulary.mie_demo_content
+  module:
+    - image
+_core:
+  default_config_hash: dxnEWpPRRQLP8x482d2aZsOBJ-BFezlpArErSWaO56s
+id: taxonomy_term.mie_demo_content.default
+targetEntityType: taxonomy_term
+bundle: mie_demo_content
+mode: default
+content:
+  field_mie_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: mie_demo_teaser
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  description: true
+  langcode: true

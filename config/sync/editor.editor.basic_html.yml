@@ -1,0 +1,100 @@
+uuid: 8590edde-4814-4b68-a3b3-55c8b0ce025c
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - ckeditor
+_core:
+  default_config_hash: AqlPmO16LvJI4D0Ih6u4GFQIzqr5OnLgAUSjcUGWk2g
+format: basic_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Strike
+            - Subscript
+            - RemoveFormat
+            - Superscript
+            - Underline
+        -
+          name: Linking
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - Language
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - DrupalImage
+        -
+          name: 'Block Formatting'
+          items:
+            - Format
+        -
+          name: Tools
+          items:
+            - Source
+        -
+          name: Adjust
+          items:
+            - JustifyLeft
+            - JustifyRight
+            - JustifyBlock
+            - HorizontalRule
+            - JustifyCenter
+        -
+          name: Indentation
+          items:
+            - Outdent
+            - Indent
+        -
+          name: Undo/Redo
+          items:
+            - Undo
+            - Redo
+        -
+          name: cut/copy/paste
+          items:
+            - Cut
+            - Paste
+            - PasteText
+            - PasteFromWord
+            - Copy
+        -
+          name: other
+          items:
+            - ShowBlocks
+            - SpecialChar
+            - Maximize
+            - Table
+        -
+          name: styles
+          items:
+            - Styles
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: ''
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

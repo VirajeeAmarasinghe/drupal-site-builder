@@ -1,0 +1,18 @@
+uuid: 5dcc451e-657c-40a9-b050-fb35bcc06110
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.vendor
+id: node.vendor.title
+field_name: title
+entity_type: node
+bundle: vendor
+label: 'Vendor name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

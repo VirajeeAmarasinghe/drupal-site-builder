@@ -1,0 +1,10 @@
+uuid: f8304297-77cd-4cb1-b101-f747cbdab0c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - dictionary
+id: dictionary_term.token
+label: Token
+targetEntityType: dictionary_term
+cache: true

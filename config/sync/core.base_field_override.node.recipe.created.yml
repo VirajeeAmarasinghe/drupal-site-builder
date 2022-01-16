@@ -1,0 +1,18 @@
+uuid: 7cbda1d6-8d39-4782-8caf-a7a62f8d35e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.recipe
+id: node.recipe.created
+field_name: created
+entity_type: node
+bundle: recipe
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created
